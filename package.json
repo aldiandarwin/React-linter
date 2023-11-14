@@ -16,7 +16,10 @@
         "react-dom": "^18.2.0"
     },
     "lint-staged": {
-        "*.{js,jsx}": "eslint"
+        "*.{js,jsx}": "eslint",
+        "lint": "eslint src  --ext js,jsx --fix",
+        "format": "prettier --write ."
+
     },
     "devDependencies": {
         "@types/react": "^18.2.15",
